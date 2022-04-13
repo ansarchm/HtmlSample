@@ -3,8 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
-        rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
@@ -12,7 +10,9 @@
     <div>
         <div class="topbar">
             <p class="logo">Logo</p>
-            <p class="user"><img src="images/male.png" /></p>
+            <div class="user"><img src="images/male.png" />
+                <p>Username</p>
+            </div>
             <nav>
                 <ul>
                     <li>Edit Profile</li>
@@ -28,7 +28,7 @@
                         <li onclick="window.location.href='products.html'"><i class="icon-shopping-cart"></i>Products
                         </li>
                         <li onclick="window.location.href='orders.html'"> <i class="icon-truck"></i>Orders</li>
-                        <li onclick="window.location.href=''"><i class="icon-signin"></i>Logout</li>
+                        <li onclick="window.location.href='index.html'"><i class="icon-signin"></i>Logout</li>
                     </ul>
                 </nav>
             </div>
@@ -45,28 +45,42 @@
                     <div class="childpart">
                         <table>
                             <thead>
-                                <th>First</th>
-                                <th>Second</th>
-                                <th>Third</th>
-                                <th>Second</th>
-                                <th>Third</th>
+                                <th>ID</th>
+                                <th>PRODUCT NAME</th>
+                                <th>RATE</th>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>
-                                        One
+                                    <td class="middlealign">
+                                        1
                                     </td>
                                     <td>
-                                        One
+                                        Pen
+                                    </td>
+                                    <td class="middlealign">
+                                        &#8377;5
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="middlealign">
+                                        2
                                     </td>
                                     <td>
-                                        One
+                                        Pencil
+                                    </td>
+                                    <td class="middlealign">
+                                        &#8377;10
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="middlealign">
+                                        3
                                     </td>
                                     <td>
-                                        Two
+                                        Bottle
                                     </td>
-                                    <td>
-                                        Three
+                                    <td class="middlealign">
+                                        &#8377;85
                                     </td>
                                 </tr>
                             </tbody>

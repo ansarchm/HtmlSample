@@ -3,8 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
-        rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
@@ -12,7 +10,9 @@
     <div>
         <div class="topbar">
             <p class="logo">Logo</p>
-            <p class="user"><img src="images/male.png" /></p>
+            <div class="user"><img src="images/male.png" />
+                <p>Username</p>
+            </div>
             <nav>
                 <ul>
                     <li>Edit Profile</li>
@@ -28,7 +28,7 @@
                         <li onclick="window.location.href='products.html'"><i class="icon-shopping-cart"></i>Products
                         </li>
                         <li onclick="window.location.href='orders.html'"> <i class="icon-truck"></i>Orders</li>
-                        <li onclick="window.location.href=''"><i class="icon-signin"></i>Logout</li>
+                        <li onclick="window.location.href='index.html'"><i class="icon-signin"></i>Logout</li>
                     </ul>
                 </nav>
             </div>
@@ -43,7 +43,27 @@
                         </div>
                     </div>
                     <div class="childpart">
-                        
+                        <div class="formdiv">
+                            <div class="formrow">
+                                <div class="formelement">
+                                    <label>Productname</label>
+                                    <input type="text" />
+                                </div>
+                            </div>
+                            <div class="formrow">
+                                <div class="formelement">
+                                    <label>Product Category</label>
+                                    <select>
+                                        <option>Electronic</option>
+                                        <option>Grocery</option> 
+                                    </select>
+                                </div>
+                                <div class="formelement">
+                                    <label>Rate</label>
+                                    <input type="text" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
